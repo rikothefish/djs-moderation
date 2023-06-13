@@ -1,0 +1,27 @@
+{
+  "name": "djs-moderation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rikothefish <raibosm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "mongoose": "^7.2.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.1.4",
+    "module-alias": "^2.2.3",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@src": "src/",
+    "@functions": "src/functions/",
+    "@util": "src/util/"
+  }
+}
